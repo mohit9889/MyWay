@@ -1,0 +1,9 @@
+.App {
+  height: calc(100vh - 70px);
+  width: 100%;
+}
+
+.show {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
+}

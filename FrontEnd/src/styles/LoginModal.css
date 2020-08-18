@@ -1,0 +1,102 @@
+.LoginModal .modal-dialog {
+  position: absolute;
+  right: 0;
+  margin: 0;
+  max-width: 418px;
+}
+
+.LoginModal .header {
+  margin-top: 69px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.LoginModal .modal-content {
+  height: 100vh;
+  border-radius: 0;
+}
+
+.LoginModal .modal-body,
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.LoginModal .modal-body .box {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.LoginModal .modal-body p {
+  margin-top: 22px;
+  margin-bottom: 9.5px;
+  font-size: 22px;
+  color: var(--green);
+}
+
+.LoginModal .modal-body .horizontal-line {
+  width: 170px;
+  height: 0px;
+  border: 2px solid #7ecb20;
+  margin-bottom: 36.5px;
+}
+
+.LoginModal .modal-body form input {
+  width: 336px;
+  height: 48px;
+  border: 1px solid #707070;
+  margin-bottom: 14px;
+}
+
+.LoginModal .modal-body a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.LoginModal .modal-body .forgot-password {
+  width: 100%;
+  padding-right: 18px;
+  color: var(--green);
+  text-align: right;
+}
+
+.LoginModal .modal-body .signup {
+  color: var(--black);
+  margin-bottom: 22px;
+}
+
+.LoginModal .modal-body button {
+  width: 336px;
+  height: 48px;
+  background: #7ecb20;
+  border: none;
+  color: white;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.Login .fadeInRight {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.animated {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}

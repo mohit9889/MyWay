@@ -1,0 +1,118 @@
+.navbar {
+  height: 70px;
+  background-color: #fff !important;
+  box-shadow: 0px 3px 6px #0000000f;
+  font-weight: 500;
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-item {
+  margin-right: 46px;
+  margin-top: 6px;
+  padding: 0;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar .navbar-collapse {
+  position: fixed;
+  right: 230px;
+}
+
+.navbar .navbar-collapse.collapse.show {
+  top: 70px;
+  left: 20px;
+}
+
+.navbar .navbar-collapse.collapsing {
+  top: 70px;
+  left: 20px;
+}
+
+.navbar .form-inline {
+  position: fixed;
+  right: 20px;
+}
+
+.navbar .form-inline .singup-btn {
+  background: none;
+  border: none;
+  color: var(--green);
+  font-weight: 500;
+  margin-right: 26px;
+}
+
+.navbar .form-inline .login-btn {
+  width: 134px;
+  height: 38px;
+  background-color: #7ecb20;
+  border-radius: 19px;
+  border: none;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.navbar .form-inline .login-btn:hover {
+  width: 142px;
+  height: 42px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  margin-top: 30px;
+}
+
+.tooltip {
+  position: absolute !important;
+}
+
+.tooltip:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #000 transparent;
+  top: -20px;
+  right: 110px;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding-left: 6rem;
+  }
+
+  .navbar .form-inline,
+  .navbar .navbar-collapse {
+    padding-right: 6rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .dropdown-menu {
+    left: 100px;
+    top: -30px;
+  }
+  .tooltip {
+    position: absolute !important;
+  }
+
+  .tooltip:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #000 transparent transparent;
+    top: 5px;
+    left: -20px;
+  }
+}
