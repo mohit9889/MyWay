@@ -1,0 +1,22 @@
+> Technologies:
+  1. ReactJS for frontend
+	=> Home Page
+	=> SignUp Modal
+	=> Login Modal
+	=> OTP Verification Modal
+	=> Verified Modal
+  2. NodeJS, Express.js for backend
+	=> Login Route
+	=> Signup Route
+	=> Forgot Password/Reset Password Route
+	=> Logout Route 
+
+> Tools:
+  1. Bootstrap 4
+  2. Jsonwebtoken
+  3. Bcrypt  
+  
+> Databases: MongoDB
+	
+
+
